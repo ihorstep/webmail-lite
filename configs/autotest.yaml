@@ -3,7 +3,7 @@ component: webmail-lite
 stack:
   - nodeType: nginxphp
     nodeGroup: cp
-  - nodeType: apachephp
+  - nodeType: apache
     nodeGroup: cp
   - nodeType: mysql
     nodeGroup: sqldb
