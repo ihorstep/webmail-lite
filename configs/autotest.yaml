@@ -1,0 +1,7 @@
+jps: https://github.com/jelastic-jps/webmail-lite/blob/master/manifest.jps
+component: webmail-lite
+stack:
+  - nodeType: nginxphp
+    nodeGroup: cp
+  - nodeType: mysql
+    nodeGroup: sqldb
